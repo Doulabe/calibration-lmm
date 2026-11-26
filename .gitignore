@@ -1,0 +1,10 @@
+.DS_Store
+Rplots.pdf
+*.rds
+data/
+.Rproj.user/
+.Rhistory
+/comparators/
+calibration/note/
+!calibration/results/**/*.rds
+calibration/output/

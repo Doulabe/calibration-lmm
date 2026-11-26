@@ -1,0 +1,14 @@
+recall LRT - score_h0     : +0.078 (SE 0.008, n = 800)
+recall wald_h1 - LRT      : +0.076 (SE 0.009, n = 800)
+recall LRT - cbf_deployed : +0.018 (SE 0.004, n = 800)
+recall mbf_hc - mbf_fixed : +0.000 (SE 0.000, n = 800)
+recall mbf_hc - LRT       : +0.000 (SE 0.000, n = 800)
+recall susie - LRT        : +0.390 (SE 0.015, n = 800)
+any_off wald_h1 - LRT     : +0.010 (SE 0.004, n = 800)
+identical K_hat mbf_hc / lrt (all reps): 0.999
+recall oracle - LRT       : +0.117 (SE 0.010, n = 800)
+recall susie - oracle     : +0.273 (SE 0.014, n = 800)
+h2c 0.08: recall oracle 0.267, lrt 0.177, susie 0.598; K_hat=0 oracle 0.56, lrt 0.70
+h2c 0.15: recall oracle 0.651, lrt 0.507, susie 0.866; K_hat=0 oracle 0.21, lrt 0.34
+null bg 0.10: any_off wald_h1 0.030, lrt 0.000, score_h0 0.000, oracle_delta 0.000, ols_ebic 0.330, susie 0.320 (n=100)
+null bg 0.25: any_off wald_h1 0.030, lrt 0.000, score_h0 0.000, oracle_delta 0.010, ols_ebic 0.930, susie 0.840 (n=100)

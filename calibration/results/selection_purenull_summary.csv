@@ -1,0 +1,12 @@
+"method","n","k","rate"
+"farmcpu",500,2,0.004
+"gemma_lrt",500,0,0
+"gemma_score",500,0,0
+"gemma_wald",500,0,0
+"lrt",500,0,0
+"ols_ebic",500,0,0
+"qtltools",500,31,0.062
+"score_h0",500,0,0
+"susie",500,1,0.002
+"susieinf",500,1,0.002
+"wald_h1",500,0,0

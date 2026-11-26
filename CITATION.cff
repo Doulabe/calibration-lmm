@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+title: >-
+  calibration-lmm: finite-sample calibration of regional mixed-model
+  association tests with an estimated variance ratio
+message: >-
+  If you use this software, please cite the article using the metadata
+  below.
+type: software
+authors:
+  - family-names: Doulabe
+    given-names: "Kossi N."
+    orcid: "https://orcid.org/0009-0005-6317-5654"
+    affiliation: >-
+      Département de Mathématiques et de Statistique, Université Laval,
+      Québec, Canada
+  - family-names: Lakhal-Chaieb
+    given-names: "Lajmi"
+    orcid: "https://orcid.org/0000-0002-8358-4392"
+    affiliation: >-
+      Département de Mathématiques et de Statistique, Université Laval,
+      Québec, Canada
+repository-code: "https://github.com/Doulabe/calibration-lmm"
+abstract: >-
+  Code of the article "Finite-sample calibration of regional mixed-model
+  association tests with an estimated variance ratio". The scripts compute
+  the exact finite-sample distributions of the Wald, score,
+  likelihood-ratio and Bayes-factor statistics of a candidate variant when
+  the variance ratio of a regional polygenic background is estimated, the
+  candidate-specific index nu_j and the plug-in and protected p-values.
+  They run the published mixed-model and fine-mapping software on the same
+  data and regenerate every table and figure of the article.
+keywords:
+  - "linear mixed model"
+  - "variance components"
+  - "finite-sample calibration"
+  - "Kenward-Roger"
+  - "fine-mapping"
+  - "eQTL"
+license: MIT
+preferred-citation:
+  type: article
+  title: >-
+    Finite-sample calibration of regional mixed-model association tests
+    with an estimated variance ratio
+  authors:
+    - family-names: Doulabe
+      given-names: "Kossi N."
+      orcid: "https://orcid.org/0009-0005-6317-5654"
+    - family-names: Lakhal-Chaieb
+      given-names: "Lajmi"
+      orcid: "https://orcid.org/0000-0002-8358-4392"
+  year: 2026
+  status: preprint

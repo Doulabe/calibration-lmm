@@ -1,0 +1,23 @@
+datasets: 1800 (null 1000, non-null 800); rv = 14 at eBIC: 1000/1000
+eBIC oracle recall 0.459  prec 0.960  any_off(non-null) 0.0088  null P(>=1) 0.003  d_recall vs rv +0.117 (SE 0.010)  share of oracle gap 1.00
+eBIC rv     recall 0.342  prec 0.972  any_off(non-null) 0.0025  null P(>=1) 0.005  d_recall vs rv +0.000 (SE 0.000)  share of oracle gap 0.00
+eBIC c1     recall 0.495  prec 0.903  any_off(non-null) 0.0725  null P(>=1) 0.056  d_recall vs rv +0.153 (SE 0.011)  share of oracle gap 1.31
+eBIC c2     recall 0.530  prec 0.900  any_off(non-null) 0.0688  null P(>=1) 0.045  d_recall vs rv +0.187 (SE 0.012)  share of oracle gap 1.61
+eBIC c3     recall 0.443  prec 0.918  any_off(non-null) 0.0500  null P(>=1) 0.033  d_recall vs rv +0.100 (SE 0.009)  share of oracle gap 0.86
+eBIC c4     recall 0.471  prec 0.926  any_off(non-null) 0.0413  null P(>=1) 0.017  d_recall vs rv +0.129 (SE 0.010)  share of oracle gap 1.10
+eBIC c5     recall 0.441  prec 0.943  any_off(non-null) 0.0238  null P(>=1) 0.024  d_recall vs rv +0.099 (SE 0.009)  share of oracle gap 0.85
+null P(>=1) at a1e-03 : oracle 0.341, rv 0.429, c1 0.426, c2 0.507, c3 0.429, c4 0.520, c5 0.426
+null P(>=1) at a1e-04 : oracle 0.053, rv 0.070, c1 0.190, c2 0.176, c3 0.132, c4 0.124, c5 0.156
+null P(>=1) at a1e-05 : oracle 0.005, rv 0.007, c1 0.076, c2 0.066, c3 0.045, c4 0.026, c5 0.044
+null P(>=1) at a1e-06 : oracle 0.001, rv 0.002, c1 0.038, c2 0.027, c3 0.011, c4 0.005, c5 0.013
+null P(>=1) at a1e-07 : oracle 0.000, rv 0.000, c1 0.020, c2 0.015, c3 0.003, c4 0.001, c5 0.006
+null P(>=1) at ebic   : oracle 0.003, rv 0.005, c1 0.056, c2 0.045, c3 0.033, c4 0.017, c5 0.024
+null P(>=1) at eBIC, bg 0.10: oracle 0.000, rv 0.002, c1 0.060, c2 0.028, c3 0.032, c4 0.006, c5 0.028
+null P(>=1) at eBIC, bg 0.25: oracle 0.006, rv 0.008, c1 0.052, c2 0.062, c3 0.034, c4 0.028, c5 0.020
+per-test step 1 (null) c1     size/alpha at 1e-2, 1e-3, 1e-4: 2.11, 7.53, 31.37
+per-test step 1 (null) c2     size/alpha at 1e-2, 1e-3, 1e-4: 2.51, 7.73, 26.04
+per-test step 1 (null) c3     size/alpha at 1e-2, 1e-3, 1e-4: 1.87, 3.46, 8.05
+per-test step 1 (null) c4     size/alpha at 1e-2, 1e-3, 1e-4: 2.13, 3.50, 4.42
+per-test step 1 (null) oracle size/alpha at 1e-2, 1e-3, 1e-4: 0.99, 0.89, 0.74
+per-test step 1 (null) rv     size/alpha at 1e-2, 1e-3, 1e-4: 1.32, 1.59, 1.42
+fixed point iterations: max 6, share hitting the cap 0.000

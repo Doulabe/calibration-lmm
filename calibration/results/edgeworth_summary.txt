@@ -1,0 +1,31 @@
+cross-check with 06 (same draws): max |log ratio| = 0 over 144 rows
+alpha 0.001  oracle_t         size ratio median 1 [0.979, 1.02]; median power 0.501
+alpha 0.001  wald_t           size ratio median 4.02 [1.28, 12.8]; median power 0.526
+alpha 0.001  wald_chi2        size ratio median 4.21 [1.32, 13.3]; median power 0.536
+alpha 0.001  wald_edgeworth   size ratio median 1.03 [0.0475, 1.28]; median power 0.384
+alpha 0.001  lrt_chi2         size ratio median 1.47 [1, 1.83]; median power 0.427
+alpha 0.001  lrt_exactref     size ratio median 1.41 [0.93, 1.76]; median power 0.420
+alpha 0.001  lrt_edgeworth    size ratio median 1.05 [0.314, 1.18]; median power 0.399
+alpha 0.001  score_t          size ratio median 0.28 [0.027, 0.851]; median power 0.261
+alpha 0.001  score_edgeworth  size ratio median 4.03 [1.06, 314]; median power 0.483
+alpha 1e-05  oracle_t         size ratio median 1.01 [0.96, 1.05]; median power 0.502
+alpha 1e-05  wald_t           size ratio median 32.9 [1.82, 211]; median power 0.532
+alpha 1e-05  wald_chi2        size ratio median 39.5 [2.12, 234]; median power 0.553
+alpha 1e-05  wald_edgeworth   size ratio median 0.791 [4.58e-05, 3.01]; median power 0.263
+alpha 1e-05  lrt_chi2         size ratio median 1.44 [0.474, 2.96]; median power 0.316
+alpha 1e-05  lrt_exactref     size ratio median 1.32 [0.428, 2.78]; median power 0.307
+alpha 1e-05  lrt_edgeworth    size ratio median 0.721 [0.0128, 1.19]; median power 0.277
+alpha 1e-05  score_t          size ratio median 0.012 [9.03e-06, 0.565]; median power 0.072
+alpha 1e-05  score_edgeworth  size ratio median 603 [1.21, 6.79e+04]; median power 0.578
+alpha 5e-08  oracle_t         size ratio median 1.01 [0.929, 1.12]; median power 0.502
+alpha 5e-08  wald_t           size ratio median 745 [2.98, 7.6e+03]; median power 0.536
+alpha 5e-08  wald_chi2        size ratio median 1.02e+03 [4.88, 8.55e+03]; median power 0.573
+alpha 5e-08  wald_edgeworth   size ratio median 0.22 [2.79e-10, 11.7]; median power 0.140
+alpha 5e-08  lrt_chi2         size ratio median 1.18 [0.0177, 3.47]; median power 0.197
+alpha 5e-08  lrt_exactref     size ratio median 0.999 [0.0145, 3.11]; median power 0.187
+alpha 5e-08  lrt_edgeworth    size ratio median 0.229 [3.15e-05, 1.21]; median power 0.151
+alpha 5e-08  score_t          size ratio median 3.43e-05 [1.23e-17, 0.252]; median power 0.007
+alpha 5e-08  score_edgeworth  size ratio median 1.28e+06 [1.72, 1.87e+07]; median power 0.767
+configs by nu_delta class: 6 / 14 / 4
+nu_delta range: 9.7 to 225.9
+Wald Edgeworth at 5e-8 by config (nu_delta: ratio): 10: 2e-06; 10: 2.8e-10; 11: 1.6e-08; 11: 9.6e-06; 18: 0.084; 19: 3.8e-07; 22: 0.015; 24: 0.0016; 25: 0.078; 25: 0.32; 27: 0.029; 28: 10; 29: 2; 31: 0.64; 33: 0.21; 45: 0.23; 49: 1.3; 52: 1.6; 56: 0.68; 78: 0.088; 101: 1.2; 132: 12; 140: 1.1; 226: 1.1
