@@ -4,7 +4,7 @@
 # the article in calibration/output (another folder with ART=<folder>). 38 and 38b print the
 # numbers quoted in the calibration section. The tables of the selection study and of the GEUVADIS
 # application also read the datasets exported by 29b and 33a (calibration/results/*/data), which
-# are not distributed and are rebuilt from the GEUVADIS data (see calibration/README.md).
+# are not distributed and are rebuilt from the GEUVADIS data (see README.md).
 # Usage (from the repository root): bash calibration/make_tables_and_figures.sh
 set -e
 cd "$(dirname "$0")/.."
